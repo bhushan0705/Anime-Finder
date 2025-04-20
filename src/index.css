@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  color: white;
+  font-family: "Righteous", sans-serif;
+}
+.LogoText{
+  font-family: "Assistant", sans-serif;
+}
+.detailCardPic{
+  box-shadow: rgb(98, 98, 201) 0px 0px 14px 2px;
+}
+.detailInfo{
+  box-shadow: rgb(98, 98, 201) 0px 0px 14px 2px;
+  font-family: "Assistant", sans-serif;
+}
+.LogoText{
+  background-image: linear-gradient(to right, #ed045a, #0044f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.animeName{
+  text-shadow: 11px 5px 1px red;
+
+}
+.animeText{
+  text-shadow:11px 7px 12px rgb(0 0 250);
+}
+:hover.card_images{
+  box-shadow: 1px 1px 10px 4px #434393;
+}
+.card_images{
+  box-shadow:#cd0000 1px 1px 5px 1px;
+}
+
+.title_Name{
+  font-family: "Assistant", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+.descriptionPage{
+  font-family: "Assistant", sans-serif;
+
+}
+.nav{
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, #64092B, #18357C);
+  border-image-slice: 1;
+}
+.aboutPage{
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-link {
+
+  @apply px-[12px] pb-[10px] rounded-3xl border-b-[2px] border-indigo-900 transition-all duration-150;
+}
+
+.nav-link.active {
+  @apply border-b-[4px] -translate-y-[4px] border-purple-900 ;
+}

@@ -34,7 +34,7 @@ const CategoryIcons = () => {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 z-50 absolute bottom-[-150px] sm:bottom-[-120px] w-full px-4 py-10">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 z-50 absolute lg:bottom-[-150px] bottom-[-300px] sm:bottom-[-120px] w-full px-4 py-10">
       {categoryIcons.map((icon, index) => (
         <div
           key={index}

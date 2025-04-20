@@ -34,7 +34,7 @@ const SearchIcon = () => {
   };
 
   return (
-    <div className="relative flex justify-center items-center">
+    <div className="relative flex justify-center items-center ">
       {isHome ? (
         <input
           onChange={handleSearch}
@@ -42,7 +42,7 @@ const SearchIcon = () => {
           type="text"
           value={query}
           placeholder="Search for animes..."
-          className={`border-2 border-amber-500 lg:pr-[50px] lg:w-[600px] h-[60px] lg:h-[80px] w-full rounded-xl lg:p-[20px] p-[10px]`}
+          className={`border-2 border-amber-500 lg:pr-[50px] lg:w-[600px] h-[60px] lg:h-[80px] w-full rounded-xl lg:p-[20px] p-[10px] `}
         />
       ) : (
         <input
